@@ -94,7 +94,7 @@ p:last-child {
   border-radius: 8px;
   transition: 0.1s;
   gap: 0.5rem;
-  animation: pulse2 1.5s infinite;
+  animation: pulse1 1.5s infinite;
 }
 
 .whatsapp-button img {
@@ -110,7 +110,7 @@ p:last-child {
     -webkit-box-shadow: 0 0 0 0 rgba(62, 64, 149, 0.4);
     box-shadow: 0 0 0 0 rgba(62, 64, 149, 0.4);
   }
-  70% {
+  50% {
     -webkit-box-shadow: 0 0 0 10px rgba(62, 64, 149, 0);
     box-shadow: 0 0 0 10px rgba(62, 64, 149, 0);
   }
@@ -124,7 +124,7 @@ p:last-child {
     -webkit-box-shadow: 0 0 0 0 rgba(62, 64, 149, 0.4);
     box-shadow: 0 0 0 0 rgba(62, 64, 149, 0.4);
   }
-  70% {
+  50% {
     -webkit-box-shadow: 0 0 0 10px rgba(62, 64, 149, 0);
     box-shadow: 0 0 0 10px rgba(62, 64, 149, 0);
   }
