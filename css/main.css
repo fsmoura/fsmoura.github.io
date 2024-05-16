@@ -94,7 +94,7 @@ p:last-child {
   border-radius: 8px;
   transition: 0.1s;
   gap: 0.5rem;
-  animation: pulse 2s infinite;
+  animation: pulse2 1.5s infinite;
 }
 
 .whatsapp-button img {
@@ -105,29 +105,72 @@ p:last-child {
   filter: brightness(1.2);
 }
 
-@-webkit-keyframes pulse {
+@-webkit-keyframes pulse1 {
   0% {
     -webkit-box-shadow: 0 0 0 0 rgba(62, 64, 149, 0.4);
-  }
-  70% {
-    -webkit-box-shadow: 0 0 0 5px rgba(62, 64, 149, 0);
-  }
-  100% {
-    -webkit-box-shadow: 0 0 0 0 rgba(62, 64, 149, 0);
-  }
-}
-
-@keyframes pulse {
-  0% {
-    -moz-box-shadow: 0 0 0 0 rgba(62, 64, 149, 0.4);
     box-shadow: 0 0 0 0 rgba(62, 64, 149, 0.4);
   }
   70% {
-    -moz-box-shadow: 0 0 0 5px rgba(62, 64, 149, 0);
+    -webkit-box-shadow: 0 0 0 10px rgba(62, 64, 149, 0);
     box-shadow: 0 0 0 10px rgba(62, 64, 149, 0);
   }
   100% {
-    -moz-box-shadow: 0 0 0 0 rgba(62, 64, 149, 0);
+    -webkit-box-shadow: 0 0 0 0 rgba(62, 64, 149, 0);
+    box-shadow: 0 0 0 0 rgba(62, 64, 149, 0);
+  }
+}
+@keyframes pulse1 {
+  0% {
+    -webkit-box-shadow: 0 0 0 0 rgba(62, 64, 149, 0.4);
+    box-shadow: 0 0 0 0 rgba(62, 64, 149, 0.4);
+  }
+  70% {
+    -webkit-box-shadow: 0 0 0 10px rgba(62, 64, 149, 0);
+    box-shadow: 0 0 0 10px rgba(62, 64, 149, 0);
+  }
+  100% {
+    -webkit-box-shadow: 0 0 0 0 rgba(62, 64, 149, 0);
+    box-shadow: 0 0 0 0 rgba(62, 64, 149, 0);
+  }
+}
+
+@-webkit-keyframes pulse2 {
+  0% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-box-shadow: 0 0 5px -10px rgba(62, 64, 149, 0.4);
+    box-shadow: 0 0 5px -10px rgba(62, 64, 149, 0.4);
+  }
+  50% {
+    -webkit-transform: scale(1.05);
+    transform: scale(1.05);
+    -webkit-box-shadow: 0 0 0 15px rgba(62, 64, 149, 0);
+    box-shadow: 0 0 0 15px rgba(62, 64, 149, 0);
+  }
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-box-shadow: 0 0 0 0 rgba(62, 64, 149, 0);
+    box-shadow: 0 0 0 0 rgba(62, 64, 149, 0);
+  }
+}
+@keyframes pulse2 {
+  0% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-box-shadow: 0 0 5px -10px rgba(62, 64, 149, 0.4);
+    box-shadow: 0 0 5px -10px rgba(62, 64, 149, 0.4);
+  }
+  50% {
+    -webkit-transform: scale(1.05);
+    transform: scale(1.05);
+    -webkit-box-shadow: 0 0 0 15px rgba(62, 64, 149, 0);
+    box-shadow: 0 0 0 15px rgba(62, 64, 149, 0);
+  }
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-box-shadow: 0 0 0 0 rgba(62, 64, 149, 0);
     box-shadow: 0 0 0 0 rgba(62, 64, 149, 0);
   }
 }
