@@ -43,14 +43,6 @@ strong,
   text-decoration: underline;
 }
 
-p {
-  margin-bottom: 1.5rem;
-}
-
-p:last-child {
-  margin-bottom: 0;
-}
-
 .container {
   width: 95%;
   max-width: 960px;
@@ -62,6 +54,15 @@ p:last-child {
   box-shadow:
     rgba(0, 0, 0, 0.1) 0px 1px 3px 0px,
     rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+}
+
+header,
+article p {
+  margin-bottom: 1.25rem;
+}
+
+section p:last-child {
+  margin-bottom: 0;
 }
 
 .hidden {
@@ -81,7 +82,8 @@ p:last-child {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: 1rem;
+  gap: 0.75rem;
+  margin-bottom: 2rem;
 }
 
 .whatsapp-button {
@@ -103,6 +105,15 @@ p:last-child {
 
 .whatsapp-button:hover {
   filter: brightness(1.2);
+}
+
+footer {
+  margin-top: 2rem;
+}
+
+footer p {
+  text-align: center;
+  font-size: 0.9rem;
 }
 
 @-webkit-keyframes pulse1 {
