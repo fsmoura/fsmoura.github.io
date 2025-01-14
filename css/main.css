@@ -74,6 +74,7 @@ section p:last-child {
 }
 
 .logo img {
+  width: 100%;
   max-width: 300px;
 }
 
@@ -114,6 +115,11 @@ footer {
 footer p {
   text-align: center;
   font-size: 0.9rem;
+}
+
+.mailto {
+  display: block;
+  margin-top: 0.125rem;
 }
 
 @-webkit-keyframes pulse1 {
