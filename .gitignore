@@ -1,0 +1,35 @@
+# Ignorar arquivos gerados automaticamente
+node_modules/
+.DS_Store
+Thumbs.db
+
+# Arquivos de cache do sistema
+*.log
+.cache/
+
+# Ignorar o arquivo de configuração do editor
+.vscode/
+.idea/
+*.swp
+
+# Ignorar arquivos gerados pelo script de cache busting
+# css/main-*.css
+
+# Ignorar arquivos temporários e backups
+*.tmp
+*.bak
+*.old
+
+# Ignorar deploys e builds locais
+dist/
+build/
+
+# Ignorar arquivos do sistema operacional
+*.sass-cache
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Ignorar configuração do Cloudflare Pages
+.cloudflare/
+
