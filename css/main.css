@@ -99,7 +99,7 @@ section p:last-child {
   border-radius: 8px;
   transition: 0.1s;
   gap: 0.5rem;
-  animation: pulse1 1.25s infinite;
+  animation: pulse2 1.25s infinite;
 }
 
 .whatsapp-button img {
