@@ -1,0 +1,198 @@
+@media (max-width: 1080px) {
+  html {
+    font-size: 93.75%;
+  }
+}
+
+@media (max-width: 720px) {
+  html {
+    font-size: 87.5%;
+  }
+}
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #eee;
+  -webkit-font-smoothing: antialised;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body,
+button {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  color: #3e4095;
+  font-size: 1.2rem;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.link {
+  font-weight: 700;
+}
+
+.link:hover {
+  text-decoration: underline;
+}
+
+.container {
+  width: 95%;
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 1.5rem 1rem;
+  background-color: #ffffff;
+  text-align: center;
+  border-radius: 4px;
+  box-shadow:
+    rgba(0, 0, 0, 0.1) 0px 1px 3px 0px,
+    rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+}
+
+header,
+article p {
+  margin-bottom: 1.25rem;
+}
+
+section p:last-child {
+  margin-bottom: 0;
+}
+
+.hidden {
+  font-size: 0px;
+}
+
+.logo {
+  margin-bottom: 2rem;
+}
+
+.logo img {
+  width: 100%;
+  max-width: 300px;
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.75rem;
+  margin-bottom: 2rem;
+}
+
+.whatsapp-button {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.5rem 1.5rem;
+  color: #f7f7f7;
+  font-weight: 700;
+  background-color: #3e4095;
+  border-radius: 8px;
+  transition: 0.1s;
+  gap: 0.5rem;
+  animation: pulse2 1.25s infinite;
+}
+
+.whatsapp-button img {
+  width: 28px;
+}
+
+.whatsapp-button:hover {
+  filter: brightness(1.2);
+}
+
+footer {
+  margin-top: 2rem;
+}
+
+footer p {
+  text-align: center;
+  font-size: 0.9rem;
+}
+
+.mailto {
+  display: block;
+  margin-top: 0.125rem;
+  text-decoration: underline;
+}
+
+@-webkit-keyframes pulse1 {
+  0% {
+    -webkit-box-shadow: 0 0 0 0 rgba(62, 64, 149, 0.4);
+    box-shadow: 0 0 0 0 rgba(62, 64, 149, 0.4);
+  }
+  50% {
+    -webkit-box-shadow: 0 0 0 10px rgba(62, 64, 149, 0);
+    box-shadow: 0 0 0 10px rgba(62, 64, 149, 0);
+  }
+  100% {
+    -webkit-box-shadow: 0 0 0 0 rgba(62, 64, 149, 0);
+    box-shadow: 0 0 0 0 rgba(62, 64, 149, 0);
+  }
+}
+
+@keyframes pulse1 {
+  0% {
+    -webkit-box-shadow: 0 0 0 0 rgba(62, 64, 149, 0.4);
+    box-shadow: 0 0 0 0 rgba(62, 64, 149, 0.4);
+  }
+  50% {
+    -webkit-box-shadow: 0 0 0 10px rgba(62, 64, 149, 0);
+    box-shadow: 0 0 0 10px rgba(62, 64, 149, 0);
+  }
+  100% {
+    -webkit-box-shadow: 0 0 0 0 rgba(62, 64, 149, 0);
+    box-shadow: 0 0 0 0 rgba(62, 64, 149, 0);
+  }
+}
+
+@-webkit-keyframes pulse2 {
+  0% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-box-shadow: 0 0 5px -10px rgba(62, 64, 149, 0.4);
+    box-shadow: 0 0 5px -10px rgba(62, 64, 149, 0.4);
+  }
+  50% {
+    -webkit-transform: scale(1.05);
+    transform: scale(1.05);
+    -webkit-box-shadow: 0 0 0 15px rgba(62, 64, 149, 0);
+    box-shadow: 0 0 0 15px rgba(62, 64, 149, 0);
+  }
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-box-shadow: 0 0 0 0 rgba(62, 64, 149, 0);
+    box-shadow: 0 0 0 0 rgba(62, 64, 149, 0);
+  }
+}
+
+@keyframes pulse2 {
+  0% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-box-shadow: 0 0 5px -10px rgba(62, 64, 149, 0.4);
+    box-shadow: 0 0 5px -10px rgba(62, 64, 149, 0.4);
+  }
+  50% {
+    -webkit-transform: scale(1.05);
+    transform: scale(1.05);
+    -webkit-box-shadow: 0 0 0 15px rgba(62, 64, 149, 0);
+    box-shadow: 0 0 0 15px rgba(62, 64, 149, 0);
+  }
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-box-shadow: 0 0 0 0 rgba(62, 64, 149, 0);
+    box-shadow: 0 0 0 0 rgba(62, 64, 149, 0);
+  }
+}
